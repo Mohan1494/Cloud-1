@@ -1,0 +1,36 @@
+.app-container {
+  background-image: url('C:/Users/ASUS/OneDrive/Pictures/Wallpaper/yla.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.auth-buttons button {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.auth-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.auth-buttons h2 {
+  margin-top: 20px;
+}
